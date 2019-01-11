@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L EMG_Probe-rescue:PWR_FLAG #FLG01
+L EMG_Probe-rescue:PWR_FLAG-EMG_Probe-rescue #FLG01
 U 1 1 57F02E05
 P 5900 7400
 F 0 "#FLG01" H 5900 7495 50  0001 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 5900 7400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:PWR_FLAG #FLG02
+L EMG_Probe-rescue:PWR_FLAG-EMG_Probe-rescue #FLG02
 U 1 1 57F02E17
 P 6300 7400
 F 0 "#FLG02" H 6300 7495 50  0001 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 6300 7400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:Sensor_Connect J1
+L EMG_Probe-rescue:Sensor_Connect-EMG_Probe-rescue J1
 U 1 1 57F032E3
 P 1400 1350
 F 0 "J1" H 1550 900 60  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 1700 1350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:INA126 U3
+L EMG_Probe-rescue:INA126-EMG_Probe-rescue U3
 U 1 1 57F03779
 P 3000 1550
 F 0 "U3" H 3000 1350 60  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 3050 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:PWR_FLAG #FLG03
+L EMG_Probe-rescue:PWR_FLAG-EMG_Probe-rescue #FLG03
 U 1 1 57F0716A
 P 6700 7400
 F 0 "#FLG03" H 6700 7495 50  0001 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 6700 7400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:GND #PWR04
+L EMG_Probe-rescue:GND-EMG_Probe-rescue #PWR04
 U 1 1 57F076E1
 P 6600 4850
 F 0 "#PWR04" H 6600 4600 50  0001 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 6600 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R6
+L EMG_Probe-rescue:R-EMG_Probe-rescue R6
 U 1 1 57F07990
 P 2350 1500
 F 0 "R6" V 2430 1500 50  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 2350 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:VCC #PWR05
+L EMG_Probe-rescue:VCC-EMG_Probe-rescue #PWR05
 U 1 1 57F09765
 P 6700 4750
 F 0 "#PWR05" H 6700 4600 50  0001 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 6700 4750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:VSS #PWR06
+L EMG_Probe-rescue:VSS-EMG_Probe-rescue #PWR06
 U 1 1 57F0979A
 P 6700 4650
 F 0 "#PWR06" H 6700 4500 50  0001 C CNN
@@ -114,7 +114,7 @@ F 3 "" H 6700 4650 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:VCC #PWR07
+L EMG_Probe-rescue:VCC-EMG_Probe-rescue #PWR07
 U 1 1 57F09A9F
 P 5900 7500
 F 0 "#PWR07" H 5900 7350 50  0001 C CNN
@@ -125,7 +125,7 @@ F 3 "" H 5900 7500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:VSS #PWR08
+L EMG_Probe-rescue:VSS-EMG_Probe-rescue #PWR08
 U 1 1 57F09ABD
 P 6300 7500
 F 0 "#PWR08" H 6300 7350 50  0001 C CNN
@@ -136,7 +136,7 @@ F 3 "" H 6300 7500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:GND #PWR09
+L EMG_Probe-rescue:GND-EMG_Probe-rescue #PWR09
 U 1 1 57F09ADB
 P 6700 7500
 F 0 "#PWR09" H 6700 7250 50  0001 C CNN
@@ -147,7 +147,7 @@ F 3 "" H 6700 7500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:VCC #PWR010
+L EMG_Probe-rescue:VCC-EMG_Probe-rescue #PWR010
 U 1 1 57F09CF7
 P 3000 800
 F 0 "#PWR010" H 3000 650 50  0001 C CNN
@@ -158,7 +158,7 @@ F 3 "" H 3000 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:VSS #PWR011
+L EMG_Probe-rescue:VSS-EMG_Probe-rescue #PWR011
 U 1 1 57F09D15
 P 3000 2250
 F 0 "#PWR011" H 3000 2100 50  0001 C CNN
@@ -169,18 +169,18 @@ F 3 "" H 3000 2250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:GND #PWR012
+L EMG_Probe-rescue:GND-EMG_Probe-rescue #PWR012
 U 1 1 57F07964
 P 1900 2100
 F 0 "#PWR012" H 1900 1850 50  0001 C CNN
-F 1 "GND" H 1900 1950 50  0000 C CNN
+F 1 "GND" H 1900 1950 50  0001 C CNN
 F 2 "" H 1900 2100 50  0000 C CNN
 F 3 "" H 1900 2100 50  0000 C CNN
 	1    1900 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:C C1
+L EMG_Probe-rescue:C-EMG_Probe-rescue C1
 U 1 1 57F0A6AD
 P 3850 1300
 F 0 "C1" H 3875 1400 50  0000 L CNN
@@ -191,7 +191,7 @@ F 3 "" H 3850 1300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R8
+L EMG_Probe-rescue:R-EMG_Probe-rescue R8
 U 1 1 57F0ACF0
 P 4150 1550
 F 0 "R8" V 4230 1550 50  0000 C CNN
@@ -202,18 +202,18 @@ F 3 "" H 4150 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:GND #PWR013
+L EMG_Probe-rescue:GND-EMG_Probe-rescue #PWR013
 U 1 1 57F0ADED
 P 4150 1800
 F 0 "#PWR013" H 4150 1550 50  0001 C CNN
-F 1 "GND" H 4150 1650 50  0000 C CNN
+F 1 "GND" H 4150 1650 50  0001 C CNN
 F 2 "" H 4150 1800 50  0000 C CNN
 F 3 "" H 4150 1800 50  0000 C CNN
 	1    4150 1800
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:VCC #PWR014
+L EMG_Probe-rescue:VCC-EMG_Probe-rescue #PWR014
 U 1 1 57F0B235
 P 4700 1100
 F 0 "#PWR014" H 4700 950 50  0001 C CNN
@@ -224,7 +224,7 @@ F 3 "" H 4700 1100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:VSS #PWR015
+L EMG_Probe-rescue:VSS-EMG_Probe-rescue #PWR015
 U 1 1 57F0B300
 P 4700 1700
 F 0 "#PWR015" H 4700 1550 50  0001 C CNN
@@ -235,7 +235,7 @@ F 3 "" H 4700 1700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R10
+L EMG_Probe-rescue:R-EMG_Probe-rescue R10
 U 1 1 57F0B5DD
 P 4900 2000
 F 0 "R10" V 4980 2000 50  0000 C CNN
@@ -246,7 +246,7 @@ F 3 "" H 4900 2000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R13
+L EMG_Probe-rescue:R-EMG_Probe-rescue R13
 U 1 1 57F0B798
 P 4500 2250
 F 0 "R13" V 4580 2250 50  0000 C CNN
@@ -257,11 +257,11 @@ F 3 "" H 4500 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:GND #PWR016
+L EMG_Probe-rescue:GND-EMG_Probe-rescue #PWR016
 U 1 1 57F0BA86
 P 4500 2450
 F 0 "#PWR016" H 4500 2200 50  0001 C CNN
-F 1 "GND" H 4500 2300 50  0000 C CNN
+F 1 "GND" H 4500 2300 50  0001 C CNN
 F 2 "" H 4500 2450 50  0000 C CNN
 F 3 "" H 4500 2450 50  0000 C CNN
 	1    4500 2450
@@ -272,7 +272,7 @@ Signal Aquisition (60 Gain)\n
 Text Notes 4100 3450 0    60   ~ 0
 Band Pass Filter \n(200 Gain /  7Hz and 330 HZ Cut Off)\nTakes Out DC-Offset and high Freq Noise
 $Comp
-L EMG_Probe-rescue:R R3
+L EMG_Probe-rescue:R-EMG_Probe-rescue R3
 U 1 1 57F0F42C
 P 5550 1300
 F 0 "R3" V 5630 1300 50  0000 C CNN
@@ -283,7 +283,7 @@ F 3 "" H 5550 1300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:C C4
+L EMG_Probe-rescue:C-EMG_Probe-rescue C4
 U 1 1 57F0FC3B
 P 5800 1550
 F 0 "C4" H 5825 1650 50  0000 L CNN
@@ -294,18 +294,18 @@ F 3 "" H 5800 1550 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:GND #PWR017
+L EMG_Probe-rescue:GND-EMG_Probe-rescue #PWR017
 U 1 1 57F0FCFA
 P 5800 1800
 F 0 "#PWR017" H 5800 1550 50  0001 C CNN
-F 1 "GND" H 5800 1650 50  0000 C CNN
+F 1 "GND" H 5800 1650 50  0001 C CNN
 F 2 "" H 5800 1800 50  0000 C CNN
 F 3 "" H 5800 1800 50  0000 C CNN
 	1    5800 1800
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R7
+L EMG_Probe-rescue:R-EMG_Probe-rescue R7
 U 1 1 57F133D3
 P 6400 1500
 F 0 "R7" V 6480 1500 50  0000 C CNN
@@ -316,7 +316,7 @@ F 3 "" H 6400 1500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:VCC #PWR018
+L EMG_Probe-rescue:VCC-EMG_Probe-rescue #PWR018
 U 1 1 57F13782
 P 7000 1100
 F 0 "#PWR018" H 7000 950 50  0001 C CNN
@@ -327,7 +327,7 @@ F 3 "" H 7000 1100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:VSS #PWR019
+L EMG_Probe-rescue:VSS-EMG_Probe-rescue #PWR019
 U 1 1 57F13938
 P 7000 1700
 F 0 "#PWR019" H 7000 1550 50  0001 C CNN
@@ -338,7 +338,7 @@ F 3 "" H 7000 1700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R1
+L EMG_Probe-rescue:R-EMG_Probe-rescue R1
 U 1 1 57F13D1F
 P 7000 750
 F 0 "R1" V 7080 750 50  0000 C CNN
@@ -349,7 +349,7 @@ F 3 "" H 7000 750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:C C3
+L EMG_Probe-rescue:C-EMG_Probe-rescue C3
 U 1 1 57F1462C
 P 7650 1400
 F 0 "C3" H 7675 1500 50  0000 L CNN
@@ -360,7 +360,7 @@ F 3 "" H 7650 1400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R11
+L EMG_Probe-rescue:R-EMG_Probe-rescue R11
 U 1 1 57F1570A
 P 7000 2000
 F 0 "R11" V 7080 2000 50  0000 C CNN
@@ -371,7 +371,7 @@ F 3 "" H 7000 2000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:C C2
+L EMG_Probe-rescue:C-EMG_Probe-rescue C2
 U 1 1 57F16D59
 P 6350 1300
 F 0 "C2" H 6375 1400 50  0000 L CNN
@@ -382,7 +382,7 @@ F 3 "" H 6350 1300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R9
+L EMG_Probe-rescue:R-EMG_Probe-rescue R9
 U 1 1 57F171D8
 P 6600 1800
 F 0 "R9" V 6680 1800 50  0000 C CNN
@@ -393,18 +393,18 @@ F 3 "" H 6600 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:GND #PWR020
+L EMG_Probe-rescue:GND-EMG_Probe-rescue #PWR020
 U 1 1 57F182B2
 P 6600 2050
 F 0 "#PWR020" H 6600 1800 50  0001 C CNN
-F 1 "GND" H 6600 1900 50  0000 C CNN
+F 1 "GND" H 6600 1900 50  0001 C CNN
 F 2 "" H 6600 2050 50  0000 C CNN
 F 3 "" H 6600 2050 50  0000 C CNN
 	1    6600 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:VCC #PWR021
+L EMG_Probe-rescue:VCC-EMG_Probe-rescue #PWR021
 U 1 1 57F274FB
 P 9450 1200
 F 0 "#PWR021" H 9450 1050 50  0001 C CNN
@@ -415,7 +415,7 @@ F 3 "" H 9450 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:VSS #PWR022
+L EMG_Probe-rescue:VSS-EMG_Probe-rescue #PWR022
 U 1 1 57F2753B
 P 9450 1800
 F 0 "#PWR022" H 9450 1650 50  0001 C CNN
@@ -428,7 +428,7 @@ $EndComp
 Text Notes 9050 3300 0    60   ~ 0
 Precision Rectifier\n
 $Comp
-L EMG_Probe-rescue:R R15
+L EMG_Probe-rescue:R-EMG_Probe-rescue R15
 U 1 1 57F3CBF0
 P 2050 4750
 F 0 "R15" V 2130 4750 50  0000 C CNN
@@ -439,7 +439,7 @@ F 3 "" H 2050 4750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:C C5
+L EMG_Probe-rescue:C-EMG_Probe-rescue C5
 U 1 1 57F3D445
 P 2300 4900
 F 0 "C5" H 2325 5000 50  0000 L CNN
@@ -450,7 +450,7 @@ F 3 "" H 2300 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:C C6
+L EMG_Probe-rescue:C-EMG_Probe-rescue C6
 U 1 1 57F3DD4B
 P 2600 4900
 F 0 "C6" H 2625 5000 50  0000 L CNN
@@ -461,18 +461,18 @@ F 3 "" H 2600 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:GND #PWR023
+L EMG_Probe-rescue:GND-EMG_Probe-rescue #PWR023
 U 1 1 57F3DF9F
 P 2450 5150
 F 0 "#PWR023" H 2450 4900 50  0001 C CNN
-F 1 "GND" H 2450 5000 50  0000 C CNN
+F 1 "GND" H 2450 5000 50  0001 C CNN
 F 2 "" H 2450 5150 50  0000 C CNN
 F 3 "" H 2450 5150 50  0000 C CNN
 	1    2450 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:VCC #PWR024
+L EMG_Probe-rescue:VCC-EMG_Probe-rescue #PWR024
 U 1 1 57F40707
 P 3250 4550
 F 0 "#PWR024" H 3250 4400 50  0001 C CNN
@@ -483,7 +483,7 @@ F 3 "" H 3250 4550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:VSS #PWR025
+L EMG_Probe-rescue:VSS-EMG_Probe-rescue #PWR025
 U 1 1 57F409D0
 P 3250 5150
 F 0 "#PWR025" H 3250 5000 50  0001 C CNN
@@ -494,7 +494,7 @@ F 3 "" H 3250 5150 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R16
+L EMG_Probe-rescue:R-EMG_Probe-rescue R16
 U 1 1 57F42FE0
 P 3450 5450
 F 0 "R16" V 3530 5450 50  0000 C CNN
@@ -505,11 +505,11 @@ F 3 "" H 3450 5450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:GND #PWR026
+L EMG_Probe-rescue:GND-EMG_Probe-rescue #PWR026
 U 1 1 57F47A11
 P 2700 5800
 F 0 "#PWR026" H 2700 5550 50  0001 C CNN
-F 1 "GND" H 2700 5650 50  0000 C CNN
+F 1 "GND" H 2700 5650 50  0001 C CNN
 F 2 "" H 2700 5800 50  0000 C CNN
 F 3 "" H 2700 5800 50  0000 C CNN
 	1    2700 5800
@@ -524,11 +524,11 @@ Signal
 Text GLabel 1650 4750 0    60   UnSpc ~ 0
 Signal
 $Comp
-L EMG_Probe-rescue:GND #PWR027
+L EMG_Probe-rescue:GND-EMG_Probe-rescue #PWR027
 U 1 1 57F79E64
 P 3700 1850
 F 0 "#PWR027" H 3700 1600 50  0001 C CNN
-F 1 "GND" H 3700 1700 50  0000 C CNN
+F 1 "GND" H 3700 1700 50  0001 C CNN
 F 2 "" H 3700 1850 50  0000 C CNN
 F 3 "" H 3700 1850 50  0000 C CNN
 	1    3700 1850
@@ -541,7 +541,7 @@ Ard_Output
 Text GLabel 8850 3950 0    60   UnSpc ~ 0
 Raw_Output
 $Comp
-L EMG_Probe-rescue:POT-RESCUE-EMG_Probe RV1
+L EMG_Probe-rescue:POT-RESCUE-EMG_Probe-EMG_Probe-rescue RV1
 U 1 1 57FAC0C9
 P 2950 5700
 F 0 "RV1" H 2950 5620 50  0000 C CNN
@@ -552,7 +552,7 @@ F 3 "" H 2950 5700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:D D2
+L EMG_Probe-rescue:D-EMG_Probe-rescue D2
 U 1 1 57F2D331
 P 10150 1500
 F 0 "D2" H 10150 1600 50  0000 C CNN
@@ -563,7 +563,7 @@ F 3 "" H 10150 1500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R2
+L EMG_Probe-rescue:R-EMG_Probe-rescue R2
 U 1 1 591F84CC
 P 8450 1600
 F 0 "R2" V 8530 1600 50  0000 C CNN
@@ -574,7 +574,7 @@ F 3 "" H 8450 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:GND #PWR028
+L EMG_Probe-rescue:GND-EMG_Probe-rescue #PWR028
 U 1 1 591F9CC1
 P 9100 1450
 F 0 "#PWR028" H 9100 1200 50  0001 C CNN
@@ -585,7 +585,7 @@ F 3 "" H 9100 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R4
+L EMG_Probe-rescue:R-EMG_Probe-rescue R4
 U 1 1 591F9D9C
 P 9300 750
 F 0 "R4" V 9380 750 50  0000 C CNN
@@ -596,7 +596,7 @@ F 3 "" H 9300 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:D D1
+L EMG_Probe-rescue:D-EMG_Probe-rescue D1
 U 1 1 591FA185
 P 9650 900
 F 0 "D1" H 9650 1000 50  0000 C CNN
@@ -607,18 +607,18 @@ F 3 "" H 9650 900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:GND #PWR029
+L EMG_Probe-rescue:GND-EMG_Probe-rescue #PWR029
 U 1 1 591FFD7B
 P 7250 5950
 F 0 "#PWR029" H 7250 5700 50  0001 C CNN
-F 1 "GND" H 7250 5800 50  0000 C CNN
+F 1 "GND" H 7250 5800 50  0001 C CNN
 F 2 "" H 7250 5950 50  0001 C CNN
 F 3 "" H 7250 5950 50  0001 C CNN
 	1    7250 5950
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:VCC #PWR030
+L EMG_Probe-rescue:VCC-EMG_Probe-rescue #PWR030
 U 1 1 5920002A
 P 7250 5450
 F 0 "#PWR030" H 7250 5300 50  0001 C CNN
@@ -629,7 +629,7 @@ F 3 "" H 7250 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:TLV274 U1
+L EMG_Probe-rescue:TLV274-EMG_Probe-rescue U1
 U 2 1 5921D3AB
 P 9550 1500
 F 0 "U1" H 9550 1700 50  0000 L CNN
@@ -640,7 +640,7 @@ F 3 "" H 9600 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:TLV274 U1
+L EMG_Probe-rescue:TLV274-EMG_Probe-rescue U1
 U 3 1 5921D860
 P 3350 4850
 F 0 "U1" H 3350 5050 50  0000 L CNN
@@ -651,7 +651,7 @@ F 3 "" H 3400 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:TLV274 U1
+L EMG_Probe-rescue:TLV274-EMG_Probe-rescue U1
 U 4 1 5921D959
 P 4800 1400
 F 0 "U1" H 4800 1600 50  0000 L CNN
@@ -662,7 +662,7 @@ F 3 "" H 4850 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:TLV274 U1
+L EMG_Probe-rescue:TLV274-EMG_Probe-rescue U1
 U 1 1 5921DE68
 P 7100 1400
 F 0 "U1" H 7100 1600 50  0000 L CNN
@@ -673,7 +673,7 @@ F 3 "" H 7150 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:ATTINY85-20SU U2
+L EMG_Probe-rescue:ATTINY85-20SU-EMG_Probe-rescue U2
 U 1 1 5921E7EF
 P 5800 5700
 F 0 "U2" H 4650 6100 50  0000 C CNN
@@ -692,7 +692,7 @@ SDA
 Text GLabel 6400 5150 0    60   Output ~ 0
 SCL
 $Comp
-L EMG_Probe-rescue:R R5
+L EMG_Probe-rescue:R-EMG_Probe-rescue R5
 U 1 1 592EE490
 P 1900 1350
 F 0 "R5" V 1980 1350 50  0000 C CNN
@@ -703,7 +703,7 @@ F 3 "" H 1900 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R20
+L EMG_Probe-rescue:R-EMG_Probe-rescue R20
 U 1 1 592EE511
 P 2050 1600
 F 0 "R20" V 2130 1600 50  0000 C CNN
@@ -714,7 +714,7 @@ F 3 "" H 2050 1600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R21
+L EMG_Probe-rescue:R-EMG_Probe-rescue R21
 U 1 1 592EE6B4
 P 1900 1850
 F 0 "R21" V 1980 1850 50  0000 C CNN
@@ -726,7 +726,7 @@ F 3 "" H 1900 1850 50  0000 C CNN
 $EndComp
 NoConn ~ 2950 5550
 $Comp
-L EMG_Probe-rescue:VCC #PWR031
+L EMG_Probe-rescue:VCC-EMG_Probe-rescue #PWR031
 U 1 1 592FB593
 P 3950 6150
 F 0 "#PWR031" H 3950 6000 50  0001 C CNN
@@ -737,7 +737,7 @@ F 3 "" H 3950 6150 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:C C7
+L EMG_Probe-rescue:C-EMG_Probe-rescue C7
 U 1 1 59300199
 P 6050 6800
 F 0 "C7" H 6075 6900 50  0000 L CNN
@@ -748,7 +748,7 @@ F 3 "" H 6050 6800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:C C8
+L EMG_Probe-rescue:C-EMG_Probe-rescue C8
 U 1 1 59300236
 P 6350 6800
 F 0 "C8" H 6375 6900 50  0000 L CNN
@@ -759,7 +759,7 @@ F 3 "" H 6350 6800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:C C9
+L EMG_Probe-rescue:C-EMG_Probe-rescue C9
 U 1 1 593015BE
 P 3400 850
 F 0 "C9" H 3425 950 50  0000 L CNN
@@ -770,7 +770,7 @@ F 3 "" H 3400 850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:CONN_01X02 P1
+L EMG_Probe-rescue:CONN_01X02-EMG_Probe-rescue P1
 U 1 1 59373C1E
 P 9500 4350
 F 0 "P1" H 9500 4500 50  0000 C CNN
@@ -781,7 +781,7 @@ F 3 "" H 9500 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:CONN_02X04 P2
+L EMG_Probe-rescue:CONN_02X04-EMG_Probe-rescue P2
 U 1 1 59375746
 P 6950 4700
 F 0 "P2" H 6950 4950 50  0000 C CNN
@@ -792,7 +792,7 @@ F 3 "" H 6950 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:SW_PUSH SW2
+L EMG_Probe-rescue:SW_PUSH-EMG_Probe-rescue SW2
 U 1 1 59378353
 P 5650 4650
 F 0 "SW2" H 5800 4760 50  0000 C CNN
@@ -803,7 +803,7 @@ F 3 "" H 5650 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R12
+L EMG_Probe-rescue:R-EMG_Probe-rescue R12
 U 1 1 5937A1E8
 P 6000 4850
 F 0 "R12" V 6080 4850 50  0000 C CNN
@@ -814,7 +814,7 @@ F 3 "" H 6000 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:GND #PWR032
+L EMG_Probe-rescue:GND-EMG_Probe-rescue #PWR032
 U 1 1 5937A88E
 P 5250 4600
 F 0 "#PWR032" H 5250 4350 50  0001 C CNN
@@ -825,7 +825,7 @@ F 3 "" H 5250 4600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:VCC #PWR033
+L EMG_Probe-rescue:VCC-EMG_Probe-rescue #PWR033
 U 1 1 5937AAD7
 P 6000 5050
 F 0 "#PWR033" H 6000 4900 50  0001 C CNN
@@ -836,110 +836,110 @@ F 3 "" H 6000 5050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:LED-RESCUE-EMG_Probe D3
+L EMG_Probe-rescue:LED-RESCUE-EMG_Probe-EMG_Probe-rescue D3
 U 1 1 5937CE2C
 P 10050 5000
 F 0 "D3" H 10050 5100 50  0000 C CNN
-F 1 "LED" H 10050 4900 50  0000 C CNN
+F 1 "LED" H 10050 4900 50  0001 C CNN
 F 2 "LEDs:LED_0603" H 10050 5000 50  0001 C CNN
 F 3 "" H 10050 5000 50  0000 C CNN
 	1    10050 5000
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:LED-RESCUE-EMG_Probe D4
+L EMG_Probe-rescue:LED-RESCUE-EMG_Probe-EMG_Probe-rescue D4
 U 1 1 5937CF56
 P 10400 5100
 F 0 "D4" H 10400 5200 50  0000 C CNN
-F 1 "LED" H 10400 5000 50  0000 C CNN
+F 1 "LED" H 10400 5000 50  0001 C CNN
 F 2 "LEDs:LED_0603" H 10400 5100 50  0001 C CNN
 F 3 "" H 10400 5100 50  0000 C CNN
 	1    10400 5100
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:LED-RESCUE-EMG_Probe D5
+L EMG_Probe-rescue:LED-RESCUE-EMG_Probe-EMG_Probe-rescue D5
 U 1 1 5937CFFF
 P 10050 5200
 F 0 "D5" H 10050 5300 50  0000 C CNN
-F 1 "LED" H 10050 5100 50  0000 C CNN
+F 1 "LED" H 10050 5100 50  0001 C CNN
 F 2 "LEDs:LED_0603" H 10050 5200 50  0001 C CNN
 F 3 "" H 10050 5200 50  0000 C CNN
 	1    10050 5200
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:LED-RESCUE-EMG_Probe D6
+L EMG_Probe-rescue:LED-RESCUE-EMG_Probe-EMG_Probe-rescue D6
 U 1 1 5937D0AC
 P 10400 5300
 F 0 "D6" H 10400 5400 50  0000 C CNN
-F 1 "LED" H 10400 5200 50  0000 C CNN
+F 1 "LED" H 10400 5200 50  0001 C CNN
 F 2 "LEDs:LED_0603" H 10400 5300 50  0001 C CNN
 F 3 "" H 10400 5300 50  0000 C CNN
 	1    10400 5300
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:LED-RESCUE-EMG_Probe D7
+L EMG_Probe-rescue:LED-RESCUE-EMG_Probe-EMG_Probe-rescue D7
 U 1 1 5937D1B0
 P 10050 5400
 F 0 "D7" H 10050 5500 50  0000 C CNN
-F 1 "LED" H 10050 5300 50  0000 C CNN
+F 1 "LED" H 10050 5300 50  0001 C CNN
 F 2 "LEDs:LED_0603" H 10050 5400 50  0001 C CNN
 F 3 "" H 10050 5400 50  0000 C CNN
 	1    10050 5400
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:LED-RESCUE-EMG_Probe D8
+L EMG_Probe-rescue:LED-RESCUE-EMG_Probe-EMG_Probe-rescue D8
 U 1 1 5937D25B
 P 10400 5500
 F 0 "D8" H 10400 5600 50  0000 C CNN
-F 1 "LED" H 10400 5400 50  0000 C CNN
+F 1 "LED" H 10400 5400 50  0001 C CNN
 F 2 "LEDs:LED_0603" H 10400 5500 50  0001 C CNN
 F 3 "" H 10400 5500 50  0000 C CNN
 	1    10400 5500
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:LED-RESCUE-EMG_Probe D9
+L EMG_Probe-rescue:LED-RESCUE-EMG_Probe-EMG_Probe-rescue D9
 U 1 1 5937D309
 P 10050 5600
 F 0 "D9" H 10050 5700 50  0000 C CNN
-F 1 "LED" H 10050 5500 50  0000 C CNN
+F 1 "LED" H 10050 5500 50  0001 C CNN
 F 2 "LEDs:LED_0603" H 10050 5600 50  0001 C CNN
 F 3 "" H 10050 5600 50  0000 C CNN
 	1    10050 5600
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:LED-RESCUE-EMG_Probe D10
+L EMG_Probe-rescue:LED-RESCUE-EMG_Probe-EMG_Probe-rescue D10
 U 1 1 5937D3BC
 P 10350 5700
 F 0 "D10" H 10350 5800 50  0000 C CNN
-F 1 "LED" H 10350 5600 50  0000 C CNN
+F 1 "LED" H 10350 5600 50  0001 C CNN
 F 2 "LEDs:LED_0603" H 10350 5700 50  0001 C CNN
 F 3 "" H 10350 5700 50  0000 C CNN
 	1    10350 5700
 	-1   0    0    1   
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R14
+L EMG_Probe-rescue:R-EMG_Probe-rescue R14
 U 1 1 59380BDC
 P 10700 6150
 F 0 "R14" V 10780 6150 50  0000 C CNN
-F 1 "R" V 10700 6150 50  0000 C CNN
+F 1 "470" V 10700 6150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10630 6150 50  0001 C CNN
 F 3 "" H 10700 6150 50  0000 C CNN
 	1    10700 6150
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:GND #PWR034
+L EMG_Probe-rescue:GND-EMG_Probe-rescue #PWR034
 U 1 1 59380D99
 P 10700 6350
 F 0 "#PWR034" H 10700 6100 50  0001 C CNN
-F 1 "GND" H 10700 6200 50  0000 C CNN
+F 1 "GND" H 10700 6200 50  0001 C CNN
 F 2 "" H 10700 6350 50  0000 C CNN
 F 3 "" H 10700 6350 50  0000 C CNN
 	1    10700 6350
@@ -949,7 +949,7 @@ NoConn ~ 6700 4550
 Text GLabel 4100 4850 2    60   UnSpc ~ 0
 Ard_Output
 $Comp
-L EMG_Probe-rescue:74HC595 U5
+L EMG_Probe-rescue:74HC595-EMG_Probe-rescue U5
 U 1 1 5943C478
 P 8900 5450
 F 0 "U5" H 9050 6050 50  0000 C CNN
@@ -960,7 +960,7 @@ F 3 "" H 8900 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:R R17
+L EMG_Probe-rescue:R-EMG_Probe-rescue R17
 U 1 1 59452263
 P 7950 5000
 F 0 "R17" V 8030 5000 50  0000 C CNN
@@ -971,7 +971,7 @@ F 3 "" H 7950 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EMG_Probe-rescue:C C10
+L EMG_Probe-rescue:C-EMG_Probe-rescue C10
 U 1 1 59452535
 P 8150 4750
 F 0 "C10" H 8175 4850 50  0000 L CNN
@@ -982,11 +982,11 @@ F 3 "" H 8150 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EMG_Probe-rescue:GND #PWR035
+L EMG_Probe-rescue:GND-EMG_Probe-rescue #PWR035
 U 1 1 59453523
 P 7900 5700
 F 0 "#PWR035" H 7900 5450 50  0001 C CNN
-F 1 "GND" H 7900 5550 50  0000 C CNN
+F 1 "GND" H 7900 5550 50  0001 C CNN
 F 2 "" H 7900 5700 50  0001 C CNN
 F 3 "" H 7900 5700 50  0001 C CNN
 	1    7900 5700
@@ -1411,7 +1411,7 @@ Wire Wire Line
 	3950 5750 3950 4850
 Connection ~ 3950 4850
 $Comp
-L EMG_Probe-rescue:R R18
+L EMG_Probe-rescue:R-EMG_Probe-rescue R18
 U 1 1 594F6BFE
 P 4150 5950
 F 0 "R18" V 4230 5950 50  0000 C CNN

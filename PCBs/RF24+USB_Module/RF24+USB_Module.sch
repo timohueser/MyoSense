@@ -15,18 +15,18 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RF24+USB_Module-rescue:ATTINY85-20SU U1
+L RF24+USB_Module-rescue:ATTINY85-20SU-RF24+USB_Module-rescue U1
 U 1 1 59C1474F
 P 2400 1150
-F 0 "U1" H 1250 1550 50  0000 C CNN
-F 1 "ATTINY85-20SU" H 3400 750 50  0000 C CNN
+F 0 "U1" H 3550 1550 50  0000 C CNN
+F 1 "ATTINY85-20SU" H 1500 1550 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 3350 1150 50  0001 C CIN
 F 3 "" H 2400 1150 50  0001 C CNN
 	1    2400 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24:nRF24l01+ U2
+L RF24+USB_Module-rescue:nRF24l01+-RF24 U2
 U 1 1 59C14822
 P 2450 3450
 F 0 "U2" H 2450 3400 50  0000 C CNN
@@ -52,7 +52,7 @@ L power:GND #PWR02
 U 1 1 59C14B31
 P 3850 1500
 F 0 "#PWR02" H 3850 1250 50  0001 C CNN
-F 1 "GND" H 3850 1350 50  0000 C CNN
+F 1 "GND" H 3850 1350 50  0001 C CNN
 F 2 "" H 3850 1500 50  0001 C CNN
 F 3 "" H 3850 1500 50  0001 C CNN
 	1    3850 1500
@@ -81,7 +81,7 @@ F 3 "" H 2050 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:R R1
+L RF24+USB_Module-rescue:R-RF24+USB_Module-rescue R1
 U 1 1 59C1513C
 P 2650 2400
 F 0 "R1" V 2730 2400 50  0000 C CNN
@@ -94,20 +94,20 @@ $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 59C15246
-P 2550 2100
-F 0 "#PWR05" H 2550 1850 50  0001 C CNN
-F 1 "GND" H 2550 1950 50  0000 C CNN
-F 2 "" H 2550 2100 50  0001 C CNN
-F 3 "" H 2550 2100 50  0001 C CNN
-	1    2550 2100
-	-1   0    0    1   
+P 2850 2100
+F 0 "#PWR05" H 2850 1850 50  0001 C CNN
+F 1 "GND" H 2850 1950 50  0001 C CNN
+F 2 "" H 2850 2100 50  0001 C CNN
+F 3 "" H 2850 2100 50  0001 C CNN
+	1    2850 2100
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 59C153E8
 P 3250 4250
 F 0 "#PWR06" H 3250 4000 50  0001 C CNN
-F 1 "GND" H 3250 4100 50  0000 C CNN
+F 1 "GND" H 3250 4100 50  0001 C CNN
 F 2 "" H 3250 4250 50  0001 C CNN
 F 3 "" H 3250 4250 50  0001 C CNN
 	1    3250 4250
@@ -118,14 +118,14 @@ L power:GND #PWR07
 U 1 1 59C15BF3
 P 2600 5050
 F 0 "#PWR07" H 2600 4800 50  0001 C CNN
-F 1 "GND" H 2600 4900 50  0000 C CNN
+F 1 "GND" H 2600 4900 50  0001 C CNN
 F 2 "" H 2600 5050 50  0001 C CNN
 F 3 "" H 2600 5050 50  0001 C CNN
 	1    2600 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:L_Small L2
+L RF24+USB_Module-rescue:L_Small-RF24+USB_Module-rescue L2
 U 1 1 59C15DBF
 P 3500 3500
 F 0 "L2" H 3530 3540 50  0000 L CNN
@@ -136,7 +136,7 @@ F 3 "" H 3500 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:L_Small L1
+L RF24+USB_Module-rescue:L_Small-RF24+USB_Module-rescue L1
 U 1 1 59C15FAA
 P 3900 3400
 F 0 "L1" H 3930 3440 50  0000 L CNN
@@ -147,7 +147,7 @@ F 3 "" H 3900 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:L_Small L3
+L RF24+USB_Module-rescue:L_Small-RF24+USB_Module-rescue L3
 U 1 1 59C16131
 P 3900 3600
 F 0 "L3" H 3930 3640 50  0000 L CNN
@@ -162,14 +162,14 @@ L power:GND #PWR08
 U 1 1 59C16FE2
 P 3850 4300
 F 0 "#PWR08" H 3850 4050 50  0001 C CNN
-F 1 "GND" H 3850 4150 50  0000 C CNN
+F 1 "GND" H 3850 4150 50  0001 C CNN
 F 2 "" H 3850 4300 50  0001 C CNN
 F 3 "" H 3850 4300 50  0001 C CNN
 	1    3850 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:R_Small R2
+L RF24+USB_Module-rescue:R_Small-RF24+USB_Module-rescue R2
 U 1 1 59C1BB4C
 P 1450 2800
 F 0 "R2" H 1480 2820 50  0000 L CNN
@@ -180,7 +180,7 @@ F 3 "" H 1450 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:C_Small C5
+L RF24+USB_Module-rescue:C_Small-RF24+USB_Module-rescue C5
 U 1 1 59C1C8F6
 P 1450 3100
 F 0 "C5" H 1460 3170 50  0000 L CNN
@@ -195,14 +195,14 @@ L power:GND #PWR09
 U 1 1 59C1D83A
 P 1450 3250
 F 0 "#PWR09" H 1450 3000 50  0001 C CNN
-F 1 "GND" H 1450 3100 50  0000 C CNN
+F 1 "GND" H 1450 3100 50  0001 C CNN
 F 2 "" H 1450 3250 50  0001 C CNN
 F 3 "" H 1450 3250 50  0001 C CNN
 	1    1450 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:D_Small D1
+L RF24+USB_Module-rescue:D_Small-RF24+USB_Module-rescue D1
 U 1 1 59C1DBCE
 P 1200 2950
 F 0 "D1" H 1150 3030 50  0000 L CNN
@@ -235,7 +235,7 @@ F 3 "" H 6650 7350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:C_Small C6
+L RF24+USB_Module-rescue:C_Small-RF24+USB_Module-rescue C6
 U 1 1 59C1ECCE
 P 4250 3400
 F 0 "C6" H 4260 3470 50  0000 L CNN
@@ -246,7 +246,7 @@ F 3 "" H 4250 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:C_Small C7
+L RF24+USB_Module-rescue:C_Small-RF24+USB_Module-rescue C7
 U 1 1 59C1EEC4
 P 4450 3600
 F 0 "C7" H 4460 3670 50  0000 L CNN
@@ -261,14 +261,14 @@ L power:GND #PWR012
 U 1 1 59C1F11B
 P 4450 3800
 F 0 "#PWR012" H 4450 3550 50  0001 C CNN
-F 1 "GND" H 4450 3650 50  0000 C CNN
+F 1 "GND" H 4450 3650 50  0001 C CNN
 F 2 "" H 4450 3800 50  0001 C CNN
 F 3 "" H 4450 3800 50  0001 C CNN
 	1    4450 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:C_Small C8
+L RF24+USB_Module-rescue:C_Small-RF24+USB_Module-rescue C8
 U 1 1 59C1FA47
 P 3700 4100
 F 0 "C8" H 3710 4170 50  0000 L CNN
@@ -279,7 +279,7 @@ F 3 "" H 3700 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:C_Small C9
+L RF24+USB_Module-rescue:C_Small-RF24+USB_Module-rescue C9
 U 1 1 59C1FC84
 P 4000 4100
 F 0 "C9" H 4010 4170 50  0000 L CNN
@@ -290,7 +290,7 @@ F 3 "" H 4000 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:C_Small C10
+L RF24+USB_Module-rescue:C_Small-RF24+USB_Module-rescue C10
 U 1 1 59C20B9A
 P 2350 4850
 F 0 "C10" H 2360 4920 50  0000 L CNN
@@ -301,7 +301,7 @@ F 3 "" H 2350 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:C_Small C11
+L RF24+USB_Module-rescue:C_Small-RF24+USB_Module-rescue C11
 U 1 1 59C20C0C
 P 2850 4850
 F 0 "C11" H 2860 4920 50  0000 L CNN
@@ -312,7 +312,7 @@ F 3 "" H 2850 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:C_Small C2
+L RF24+USB_Module-rescue:C_Small-RF24+USB_Module-rescue C2
 U 1 1 59C22166
 P 2050 2200
 F 0 "C2" H 2060 2270 50  0000 L CNN
@@ -323,7 +323,7 @@ F 3 "" H 2050 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:C_Small C1
+L RF24+USB_Module-rescue:C_Small-RF24+USB_Module-rescue C1
 U 1 1 59C267FA
 P 3850 1150
 F 0 "C1" H 3860 1220 50  0000 L CNN
@@ -349,14 +349,14 @@ L power:GND #PWR014
 U 1 1 59C2789F
 P 3600 2950
 F 0 "#PWR014" H 3600 2700 50  0001 C CNN
-F 1 "GND" H 3600 2800 50  0000 C CNN
+F 1 "GND" H 3600 2800 50  0001 C CNN
 F 2 "" H 3600 2950 50  0001 C CNN
 F 3 "" H 3600 2950 50  0001 C CNN
 	1    3600 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:C_Small C4
+L RF24+USB_Module-rescue:C_Small-RF24+USB_Module-rescue C4
 U 1 1 59C27C1F
 P 3700 2800
 F 0 "C4" H 3710 2870 50  0000 L CNN
@@ -367,7 +367,7 @@ F 3 "" H 3700 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:C_Small C3
+L RF24+USB_Module-rescue:C_Small-RF24+USB_Module-rescue C3
 U 1 1 59C27CD0
 P 3500 2800
 F 0 "C3" H 3510 2870 50  0000 L CNN
@@ -377,10 +377,10 @@ F 3 "" H 3500 2800 50  0001 C CNN
 	1    3500 2800
 	1    0    0    -1  
 $EndComp
-Text GLabel 1100 1700 2    60   UnSpc ~ 0
+Text GLabel 950  1400 0    60   UnSpc ~ 0
 RST
 $Comp
-L RF24+USB_Module-rescue:Crystal_GND24 Y1
+L RF24+USB_Module-rescue:Crystal_GND24-RF24+USB_Module-rescue Y1
 U 1 1 59C38BE2
 P 2600 4650
 F 0 "Y1" H 2725 4850 50  0000 L CNN
@@ -391,7 +391,7 @@ F 3 "" H 2600 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:Antenna_Dipole AE1
+L RF24+USB_Module-rescue:Antenna_Dipole-RF24+USB_Module-rescue AE1
 U 1 1 59C43C45
 P 4800 3150
 F 0 "AE1" H 4850 3200 50  0000 C CNN
@@ -402,7 +402,7 @@ F 3 "" H 4800 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mylib:MCP2221 U3
+L RF24+USB_Module-rescue:MCP2221-mylib U3
 U 1 1 59C9404F
 P 6200 1800
 F 0 "U3" H 6200 2050 60  0000 C CNN
@@ -423,9 +423,9 @@ Text GLabel 5550 1900 0    60   UnSpc ~ 0
 Rx
 Text GLabel 5550 2000 0    60   UnSpc ~ 0
 Tx
-Text GLabel 1100 1800 2    60   UnSpc ~ 0
+Text GLabel 950  1300 0    60   UnSpc ~ 0
 Rx
-Text GLabel 1100 1900 2    60   UnSpc ~ 0
+Text GLabel 950  1200 0    60   UnSpc ~ 0
 Tx
 $Comp
 L power:GND #PWR015
@@ -450,7 +450,7 @@ F 3 "" H 5600 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:CONN_01X05 J1
+L RF24+USB_Module-rescue:CONN_01X05-RF24+USB_Module-rescue J1
 U 1 1 59C960C2
 P 7550 1700
 F 0 "J1" H 7550 2000 50  0000 C CNN
@@ -466,7 +466,7 @@ L power:GND #PWR017
 U 1 1 59C96321
 P 7250 1950
 F 0 "#PWR017" H 7250 1700 50  0001 C CNN
-F 1 "GND" H 7250 1800 50  0000 C CNN
+F 1 "GND" H 7250 1800 50  0001 C CNN
 F 2 "" H 7250 1950 50  0001 C CNN
 F 3 "" H 7250 1950 50  0001 C CNN
 	1    7250 1950
@@ -484,44 +484,44 @@ F 3 "" H 4600 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:LED_Small D2
+L RF24+USB_Module-rescue:LED_Small-RF24+USB_Module-rescue D2
 U 1 1 59C99083
 P 4450 950
 F 0 "D2" H 4400 1075 50  0000 L CNN
-F 1 "LED_Small" H 4275 850 50  0000 L CNN
+F 1 "LED_Small" H 4275 850 50  0001 L CNN
 F 2 "LEDs:LED_0603" V 4450 950 50  0001 C CNN
 F 3 "" V 4450 950 50  0001 C CNN
 	1    4450 950 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:LED_Small D3
+L RF24+USB_Module-rescue:LED_Small-RF24+USB_Module-rescue D3
 U 1 1 59C99173
 P 4750 950
 F 0 "D3" H 4700 1075 50  0000 L CNN
-F 1 "LED_Small" H 4575 850 50  0000 L CNN
+F 1 "LED_Small" H 4575 850 50  0001 L CNN
 F 2 "LEDs:LED_0603" V 4750 950 50  0001 C CNN
 F 3 "" V 4750 950 50  0001 C CNN
 	1    4750 950 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:R_Small R3
+L RF24+USB_Module-rescue:R_Small-RF24+USB_Module-rescue R3
 U 1 1 59C99329
 P 4450 1200
 F 0 "R3" H 4480 1220 50  0000 L CNN
-F 1 "R_Small" H 4480 1160 50  0000 L CNN
+F 1 "470" H 4480 1160 50  0000 L CNN
 F 2 "Resistors_SMD:R_0402" H 4450 1200 50  0001 C CNN
 F 3 "" H 4450 1200 50  0001 C CNN
 	1    4450 1200
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:R_Small R4
+L RF24+USB_Module-rescue:R_Small-RF24+USB_Module-rescue R4
 U 1 1 59C99390
 P 4750 1200
 F 0 "R4" H 4780 1220 50  0000 L CNN
-F 1 "R_Small" H 4780 1160 50  0000 L CNN
+F 1 "470" H 4780 1160 50  0000 L CNN
 F 2 "Resistors_SMD:R_0402" H 4750 1200 50  0001 C CNN
 F 3 "" H 4750 1200 50  0001 C CNN
 	1    4750 1200
@@ -565,8 +565,6 @@ Wire Wire Line
 	2250 2150 2550 2150
 Wire Wire Line
 	2250 2150 2250 2750
-Wire Wire Line
-	2550 2100 2550 2150
 Connection ~ 2550 2150
 Wire Wire Line
 	3200 3350 3250 3350
@@ -653,12 +651,6 @@ Wire Wire Line
 	1750 2600 1750 2650
 Connection ~ 1750 2650
 Wire Wire Line
-	850  3450 1750 3450
-Wire Wire Line
-	800  3550 1750 3550
-Wire Wire Line
-	750  3650 1750 3650
-Wire Wire Line
 	1650 3350 1750 3350
 Wire Wire Line
 	1650 2950 1650 3350
@@ -672,8 +664,6 @@ Connection ~ 1450 2950
 Wire Wire Line
 	1450 3250 1450 3200
 Wire Wire Line
-	850  2950 1100 2950
-Wire Wire Line
 	6650 7450 6650 7350
 Wire Wire Line
 	4350 3400 4450 3400
@@ -681,25 +671,6 @@ Wire Wire Line
 	4450 3400 4450 3500
 Wire Wire Line
 	4450 3700 4450 3750
-Wire Wire Line
-	900  1200 1050 1200
-Wire Wire Line
-	750  900  750  3650
-Wire Wire Line
-	800  3550 800  1000
-Wire Wire Line
-	850  1100 850  2950
-Connection ~ 850  2950
-Wire Wire Line
-	900  1200 900  1900
-Wire Wire Line
-	900  1900 1100 1900
-Wire Wire Line
-	1050 1300 950  1300
-Wire Wire Line
-	1100 1800 950  1800
-Wire Wire Line
-	950  1800 950  1300
 Connection ~ 3850 900 
 Connection ~ 3850 1400
 Wire Wire Line
@@ -718,12 +689,6 @@ Wire Wire Line
 Wire Wire Line
 	3600 2650 3600 2600
 Connection ~ 3600 2650
-Wire Wire Line
-	1050 1400 1000 1400
-Wire Wire Line
-	1000 1400 1000 1700
-Wire Wire Line
-	1000 1700 1100 1700
 Connection ~ 2600 4850
 Connection ~ 4450 3400
 Connection ~ 4450 3750
@@ -805,15 +770,9 @@ IRQ
 Text GLabel 4450 1350 3    60   UnSpc ~ 0
 IRQ
 Wire Wire Line
-	700  900  750  900 
-Wire Wire Line
-	700  1000 800  1000
-Wire Wire Line
-	700  1100 850  1100
-Wire Wire Line
 	6800 900  6800 1050
 $Comp
-L RF24+USB_Module-rescue:C_Small C12
+L RF24+USB_Module-rescue:C_Small-RF24+USB_Module-rescue C12
 U 1 1 59C9E385
 P 6150 1050
 F 0 "C12" H 6160 1120 50  0000 L CNN
@@ -830,7 +789,7 @@ Wire Wire Line
 	6250 1050 6800 1050
 Connection ~ 6800 1050
 $Comp
-L RF24+USB_Module-rescue:CONN_02X03 J2
+L RF24+USB_Module-rescue:CONN_02X03-RF24+USB_Module-rescue J2
 U 1 1 59C9F14B
 P 6450 2800
 F 0 "J2" H 6450 3000 50  0000 C CNN
@@ -877,7 +836,7 @@ L power:GND #PWR019
 U 1 1 59CA0254
 P 6800 2950
 F 0 "#PWR019" H 6800 2700 50  0001 C CNN
-F 1 "GND" H 6800 2800 50  0000 C CNN
+F 1 "GND" H 6800 2800 50  0001 C CNN
 F 2 "" H 6800 2950 50  0001 C CNN
 F 3 "" H 6800 2950 50  0001 C CNN
 	1    6800 2950
@@ -897,7 +856,7 @@ $EndComp
 Text GLabel 7250 1450 1    60   UnSpc ~ 0
 V_USB
 $Comp
-L mylib:MIC5504 U4
+L RF24+USB_Module-rescue:MIC5504-mylib U4
 U 1 1 59CA1DBF
 P 6350 3750
 F 0 "U4" H 6100 3950 50  0000 L CNN
@@ -924,7 +883,7 @@ L power:GND #PWR021
 U 1 1 59CA2C21
 P 6350 4200
 F 0 "#PWR021" H 6350 3950 50  0001 C CNN
-F 1 "GND" H 6350 4050 50  0000 C CNN
+F 1 "GND" H 6350 4050 50  0001 C CNN
 F 2 "" H 6350 4200 50  0001 C CNN
 F 3 "" H 6350 4200 50  0001 C CNN
 	1    6350 4200
@@ -948,22 +907,22 @@ $EndComp
 Wire Wire Line
 	6800 2700 6800 2650
 $Comp
-L RF24+USB_Module-rescue:C_Small C14
+L RF24+USB_Module-rescue:C_Small-RF24+USB_Module-rescue C14
 U 1 1 59CA5A93
 P 6800 4000
 F 0 "C14" H 6810 4070 50  0000 L CNN
-F 1 "C_Small" H 6810 3920 50  0000 L CNN
+F 1 "1uF" H 6810 3920 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 6800 4000 50  0001 C CNN
 F 3 "" H 6800 4000 50  0001 C CNN
 	1    6800 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF24+USB_Module-rescue:C_Small C13
+L RF24+USB_Module-rescue:C_Small-RF24+USB_Module-rescue C13
 U 1 1 59CA5BE4
 P 5800 4000
 F 0 "C13" H 5810 4070 50  0000 L CNN
-F 1 "C_Small" H 5810 3920 50  0000 L CNN
+F 1 "1uF" H 5810 3920 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 5800 4000 50  0001 C CNN
 F 3 "" H 5800 4000 50  0001 C CNN
 	1    5800 4000
@@ -980,14 +939,11 @@ Connection ~ 6350 4150
 Wire Wire Line
 	6800 4150 6800 4100
 Connection ~ 6800 3650
-Connection ~ 750  900 
-Connection ~ 800  1000
-Connection ~ 850  1100
-Text GLabel 700  900  0    60   UnSpc ~ 0
+Text GLabel 950  900  0    60   UnSpc ~ 0
 MOSI
-Text GLabel 700  1000 0    60   UnSpc ~ 0
+Text GLabel 950  1000 0    60   UnSpc ~ 0
 MISO
-Text GLabel 700  1100 0    60   UnSpc ~ 0
+Text GLabel 950  1100 0    60   UnSpc ~ 0
 SCK
 $Comp
 L power:PWR_FLAG #FLG023
@@ -1041,8 +997,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 2950 1450 3000
 Wire Wire Line
-	850  2950 850  3450
-Wire Wire Line
 	3850 900  3850 1050
 Wire Wire Line
 	3850 1400 3850 1500
@@ -1077,9 +1031,40 @@ Wire Wire Line
 Wire Wire Line
 	6800 3650 6800 3900
 Wire Wire Line
-	750  900  1050 900 
+	950  900  1050 900 
 Wire Wire Line
-	800  1000 1050 1000
+	1050 1000 950  1000
 Wire Wire Line
-	850  1100 1050 1100
+	950  1100 1050 1100
+Wire Wire Line
+	950  1200 1050 1200
+Wire Wire Line
+	950  1300 1050 1300
+Wire Wire Line
+	950  1400 1050 1400
+Wire Wire Line
+	1100 2950 1000 2950
+Wire Wire Line
+	1000 2950 1000 3450
+Wire Wire Line
+	1000 3450 1750 3450
+Wire Wire Line
+	1000 3450 950  3450
+Connection ~ 1000 3450
+Wire Wire Line
+	1750 3550 950  3550
+Wire Wire Line
+	1750 3650 950  3650
+Text GLabel 950  3650 0    60   UnSpc ~ 0
+MOSI
+Text GLabel 950  3550 0    60   UnSpc ~ 0
+MISO
+Text GLabel 950  3450 0    60   UnSpc ~ 0
+SCK
+Wire Wire Line
+	2550 2050 2850 2050
+Wire Wire Line
+	2850 2050 2850 2100
+Wire Wire Line
+	2550 2050 2550 2150
 $EndSCHEMATC
